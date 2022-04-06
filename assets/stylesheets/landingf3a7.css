@@ -11,6 +11,7 @@
   --spacing-5: calc(var(--spacing) * 5);
   --scale: 1px;
   --col: calc(100vw / 6);
+  font-family: Roboto condensed;
 }
 @media (min-width: 980px) and (max-height: 499px),
   (min-width: 1200px) and (min-height: 500px) and (max-height: 699px),
@@ -51,7 +52,6 @@
   transition-timing-function: cubic-bezier(0.25, 0.74, 0.22, 0.99);
 }
 .landing-news__list__item .card--project .card__text__title {
-  font-family: 'Roboto', sans-serif;
   text-transform: none;
   --fos: -0.173em;
   --foe: -0.171em;
@@ -62,7 +62,6 @@
 .intro__content--3 p .intro__content__sub-title,
 .intro__content--4 .intro__content__sub-title p,
 .intro__content--4 p .intro__content__sub-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 300 !important;
   font-stretch: condensed;
   text-transform: uppercase;
@@ -72,7 +71,6 @@
 .landing-news__list__item .card--project .card__text__date__desk__sm,
 .landing-news__list__item .card--project .card__text__date__mob,
 .landing-news__list__item__last .card--project .card__text__title {
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   --fos: -0.173em;
   --foe: -0.171em;
@@ -104,7 +102,6 @@
   line-height: 1.23077em;
   --lh: 1.23077em;
   letter-spacing: 0.05em;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 @media only screen and (min-width: 1440px) and (min-height: 700px) {
@@ -135,7 +132,6 @@
     line-height: 1.33333em;
     --lh: 1.33333em;
     letter-spacing: 0.05em;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
 }
@@ -838,6 +834,7 @@
   .intro__content--4 .intro__content__title {
     top: calc(42.94479vh - 77px);
     left: calc(var(--spacing) * 4);
+    font-size: 45px;
   }
   .intro__content--2 .intro__content__sub-title,
   .intro__content--3 .intro__content__sub-title,
@@ -852,7 +849,7 @@
   .intro__content--2 .intro__content__title,
   .intro__content--3 .intro__content__title,
   .intro__content--4 .intro__content__title {
-    font-size: 8.7rem;
+    font-size: 50px;
     line-height: 1em;
     --lh: 1em;
     letter-spacing: 0;
@@ -3323,3 +3320,13 @@
     bottom: calc(var(--spacing) / 1.5);
   }
 }
+
+
+
+
+
+
+
+
+
+

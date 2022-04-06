@@ -1782,6 +1782,9 @@
 }
 .card--award {
   cursor: default;
+  border-top: 1px solid rgba(34, 34, 34, 0.1);
+  border-left: 1px solid rgba(34, 34, 34, 0.1);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
 }
 .card--award[href] {
   cursor: pointer;
@@ -1810,13 +1813,11 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 40%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: var(--spacing);
-  border-top: 1px solid rgba(34, 34, 34, 0.1);
-  border-right: 1px solid rgba(34, 34, 34, 0.1);
 }
 .card--award .card__content .card__image {
   contain: layout paint;
@@ -1869,8 +1870,10 @@
     bottom: 0;
   }
   .card--award .card__bottom {
-    top: 0;
-    bottom: auto;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
   }
 }
 @media (max-width: 667px) and (min-aspect-ratio: 13/9),
@@ -2196,7 +2199,7 @@
   }
   .career-modal__top__first,
   .career-modal__top__second {
-    font-size: 8.7rem;
+    font-size: 45px;
     line-height: 1em;
     --lh: 1em;
     letter-spacing: 0;
