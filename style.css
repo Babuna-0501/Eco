@@ -454,7 +454,7 @@ small {
 .text--g1,
 .text--g1-project,
 .text--g2 {
-  font-size: 8.7rem;
+  font-size: 60px;
   line-height: 1em;
   --lh: 1em;
   letter-spacing: 0;
@@ -523,7 +523,7 @@ small {
 }
 .btn,
 .text--c2 {
-  font-size: 1.3rem;
+  font-size: 1.14rem;
   line-height: 1.23077em;
   --lh: 1.23077em;
   font-family: Halvar Engschrift, Helvetica, Arial, sans-serif;
@@ -535,7 +535,7 @@ small {
   font-weight: 400;
 }
 .text--c3 {
-  font-size: 1rem;
+  font-size: 8px;
   line-height: 1.3em;
   --lh: 1.3em;
 }
@@ -1191,7 +1191,7 @@ textarea {
 }
 .h1,
 h1 {
-  font-size: 5.8rem;
+  font-size: 45px;
   line-height: 1em;
   --lh: 1em;
   letter-spacing: 0;
@@ -1231,7 +1231,7 @@ h1 {
 }
 .h2,
 h2 {
-  font-size: 5.8rem;
+  font-size: 45px;
   line-height: 1em;
   --lh: 1em;
   letter-spacing: 0;
@@ -1309,7 +1309,7 @@ h3 {
 }
 .h4,
 h4 {
-  font-size: 3.6rem;
+  font-size: 16px;
   line-height: 1.125em;
   --lh: 1.125em;
   letter-spacing: 0.02em;
@@ -1348,11 +1348,11 @@ h4 {
 }
 .h5,
 h5 {
-  font-size: 2.9rem;
-  line-height: 1.03448em;
+  font-size: 18.5px;
+  line-height: 1.43448em;
   --lh: 1.03448em;
   letter-spacing: 0.02em;
-  font-weight: 400;
+  font-weight: 300;
 }
 @media only screen and (min-width: 1440px) and (min-height: 700px) {
   .h5,
@@ -1385,7 +1385,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin-top: calc((var(--spacing) / 20) * 10);
+  margin-top: calc((var(--spacing) / 20) * 30);
   margin-bottom: calc((var(--spacing) / 20) * 10);
 }
 .h1:first-child,
@@ -6494,7 +6494,7 @@ a .icon-logo__item {
 .mt-0\:xs:first-child,
 .my-0:first-child,
 .my-0\:xs:first-child {
-  margin-top: 0;
+  margin-top: 7px;
 }
 .mt-0-5,
 .mt-0-5\:xs,
@@ -11786,11 +11786,11 @@ a.card--project.is-active .card__background picture img {
   padding-left: var(--spacing);
 }
 .menu-mobile__list .menu-mobile__link {
-  font-size: 5.8rem;
-  line-height: 1em;
-  --lh: 1em;
-  letter-spacing: 0;
-  font-weight: 300;
+    font-size: 35px;
+    line-height: 1.6em;
+    --lh: 1em;
+    letter-spacing: 0;
+    font-weight: 300;
 }
 @media (min-aspect-ratio: 13/9), only screen and (min-width: 568px) {
   .menu-mobile__list .menu-mobile__link {
@@ -12493,7 +12493,7 @@ a.card--project.is-active .card__background picture img {
 }
 .section_map {
   background-color: #555555;
-  height: 880px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12501,7 +12501,7 @@ a.card--project.is-active .card__background picture img {
 }
 .landing-map-slider__slide__title {
   color: #fff;
-  top: 22.5rem !important;
+  top: 12.5rem !important;
   left: 50% !important;
   margin-left: -9rem !important;
   font-size: 55px !important;
@@ -12513,15 +12513,17 @@ a.card--project.is-active .card__background picture img {
   left: 21%;
   top: 43%;
 }
-.section_plan {
-  margin-top: 100px !important;
-}
 .service_plan {
   width: 90vw;
   margin-top: 5rem;
 }
 .service_h2 {
   margin-top: 7rem !important;
+}
+.eff-history {
+  margin-top: -5rem;
+  background-color: #fff;
+  padding-top: 25vw;
 }
 }
 @media only screen and (max-width: 576px) {
@@ -12537,7 +12539,7 @@ display: none;
 }
 .iframe1 {
 width: 100%;
-height: 65vh;
+height: 145vw;
 }
 .iframe2 {
 width: 100%;

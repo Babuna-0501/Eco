@@ -99,7 +99,7 @@ only screen and (min-width:980px) {
 
 .advantages-item__title,
 .intro__tab-box__text h2 {
-    font-family: Roboto condensed;
+    font-family: Roboto, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
@@ -3370,7 +3370,7 @@ only screen and (min-width:980px) {
 
 @media only screen and (max-width:567px) and (max-aspect-ratio:13/9) {
     .advantages-title {
-        font-size: calc(4.05rem + 67.5 * ((100vw - 330px) / 308));
+        font-size: calc(4.05rem + 67.5 * ((100vw - 330px) / 388));
         line-height: calc(1.23457em + -2.16049 * ((100vw - 360px) / 308));
         letter-spacing: calc(.02em + -.6 * ((100vw - 360px) / 308))
     }
