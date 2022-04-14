@@ -2841,7 +2841,7 @@
 }
 .efficiency-info__description-block {
   padding-top: calc(var(--spacing) / 20 * 50);
-  padding-bottom: calc(var(--spacing) * 5);
+  /* padding-bottom: calc(var(--spacing) * 5); */
 }
 .efficiency-info__link-block {
   min-height: calc(var(--spacing) * 8);
