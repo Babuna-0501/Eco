@@ -6552,7 +6552,7 @@ only screen and (min-width:980px) {
 .ui-dark .btn.btn--primary.btn--nohover:before,
 .ui-dark .btn.btn--primary.btn--nohover:disabled:after,
 .ui-dark .btn.btn--primary.btn--nohover:disabled:before {
-    background-color: #F94500
+    background-color: #222222
 }
 
 .has-hover .ui-dark .btn-container:active:hover .btn.btn--primary.btn--nohover,
@@ -11224,7 +11224,7 @@ textarea {
 .ui-olive h3,
 .ui-olive h4,
 .ui-olive h5 {
-    color: #F94500
+    color: #222222
 }
 
 .ui-olive .text--color-small {

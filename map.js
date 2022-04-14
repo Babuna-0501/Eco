@@ -1,4 +1,3 @@
-// Initialize and add the map
 function initMap() {
     // The location of Uluru
     const ulanbator = { lat: 47.9164365, lng: 106.914070 };
@@ -12,9 +11,7 @@ function initMap() {
       position: ulanbator,
       map: map,
       icon:'/assets/images/company/map_group2.png',
-      // adding custom icons (Here I used a Flash logo marker)
-      draggarble: false// If set to true you can drag the marker
+      draggarble: false
     });
-    // const img =  "/assets/images/company/map_stick_grp.png"
   }
   
