@@ -1877,6 +1877,7 @@
     width: 100%;
     height: 67%;
     display: flex;
+    top: 13rem;
   }
 }
 @media (max-width: 667px) and (min-aspect-ratio: 13/9),

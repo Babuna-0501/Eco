@@ -524,8 +524,8 @@ small {
 .btn,
 .text--c2 {
   font-size: 1.14rem;
-  line-height: 1.23077em;
-  --lh: 1.23077em;
+  line-height: 1.43077em;
+  --lh: 1.43077em;
   font-family: Halvar Engschrift, Helvetica, Arial, sans-serif;
   height: 1.3rem;
 }
@@ -1192,7 +1192,7 @@ textarea {
 }
 .h1,
 h1 {
-  font-size: 45px;
+  font-size: 36px;
   line-height: 1em;
   --lh: 1em;
   letter-spacing: 0;
@@ -1232,8 +1232,8 @@ h1 {
 }
 .h2,
 h2 {
-  font-size: 45px;
-  line-height: 1em;
+  font-size: 36px;
+  line-height: 1.1em;
   --lh: 1em;
   letter-spacing: 0;
   font-weight: 300;
@@ -12574,6 +12574,9 @@ a.card--project.is-active .card__background picture img {
 .service_h2 {
   margin-top: 7rem !important;
 }
+.md__txt-lg3 {
+  top: 25px !important;
+}
 .eff-history {
   margin-top: -5rem;
   background-color: #fff;
@@ -12608,10 +12611,9 @@ a.card--project.is-active .card__background picture img {
   padding: 10px;
   margin-bottom: 25px;
   background-color: #555555;
-  border-color: #fff;
   outline: none !important;
   box-shadow: none !important;
-  border-color: #ced4da;
+  border: 1px solid #AEB8C0;
   color: #fff;
 }
 .mail__sp p {
@@ -12626,6 +12628,7 @@ a.card--project.is-active .card__background picture img {
   margin-top: 25px;
   font-stretch: condensed;
   text-transform: uppercase;
+  font-family: roboto condensed;
 }
 .brochure a {
   display: flex;
@@ -12654,6 +12657,13 @@ a.card--project.is-active .card__background picture img {
 .logo-nd {
   margin-left: -7.5rem;
 }
+.arrow_dwn {
+  width: 20px;
+  height: 20px;
+}
+.text-m_sm {
+  white-space: nowrap;
+}
 }
 @media only screen and (max-width: 576px) {
 .slider-history-nav-btn {
@@ -12662,7 +12672,9 @@ a.card--project.is-active .card__background picture img {
   left: -10%;
 }
 }
-
+.txt-md_footer {
+  margin-top: -3rem;
+}
 .gmnoprint {
 display: none;
 }
