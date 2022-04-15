@@ -527,6 +527,8 @@ small {
   line-height: 1.23077em;
   --lh: 1.23077em;
   font-family: Halvar Engschrift, Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  height: 1.3rem;
 }
 .btn,
 .text--c2,
@@ -11784,18 +11786,21 @@ a.card--project.is-active .card__background picture img {
   justify-content: center;
   height: 100%;
   padding-left: var(--spacing);
+  align-items: center;
+  margin-top: -3rem;
 }
 .contact_p {
   font-size: 12px;
   color: #919191;
   margin: 0;
+  text-transform: uppercase;
 }
 .contact_m {
   font-size: 12px !important;
 }
 .menu-mobile__list .menu-mobile__link {
     font-size: 26px;
-    line-height: 1.6em;
+    line-height: 2.3em;
     --lh: 1em;
     letter-spacing: 0;
     font-weight: 300;
@@ -11892,8 +11897,8 @@ a.card--project.is-active .card__background picture img {
 }
 .menu-mobile__phone-wrap a {
   font-size: 1.3rem;
-  line-height: 1.23077em;
-  --lh: 1.23077em;
+  line-height: 3.3077em;
+  --lh: 3.3077em
   letter-spacing: 0.05em;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -12515,16 +12520,23 @@ a.card--project.is-active .card__background picture img {
   /* The width is the width of the web page */
 }
 .section_map {
-  background: url(/assets/images/company/shape.png);
   height: 120rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  z-index: 0;
+  z-index: 10;
 }
-.section_map::after {
+.map-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+/* .section_map::after {
   background: url('/assets/images/company/shape.png');
+} */
+
+#i-brand {
+  height: 142vw;
 }
 .map_info {
   position: absolute;
@@ -12535,7 +12547,13 @@ a.card--project.is-active .card__background picture img {
   object-fit: cover;
   background-color: #fff;
   z-index: 1;
+  border: 1px solid #ddd;
 }
+.location_brl {
+  position: relative;
+  top: 3px;
+}
+
 .landing-map-slider__slide__title {
   color: #222222;
   top: 5.5rem !important;
@@ -12561,6 +12579,16 @@ a.card--project.is-active .card__background picture img {
   margin-top: -5rem;
   background-color: #fff;
   padding-top: 25vw;
+  background-image: url('assets/images/company/shape.png');
+}
+.first_lg--data-md {
+  margin-top: 4rem;
+}
+.bg_white_lg {
+  background-color: #fff;
+}
+#first-lg {
+  background-color: #fff;
 }
 .mail__sp {
   width: 100%;
@@ -12584,6 +12612,7 @@ a.card--project.is-active .card__background picture img {
   outline: none !important;
   box-shadow: none !important;
   border-color: #ced4da;
+  color: #fff;
 }
 .mail__sp p {
   color: #fff;
@@ -12606,8 +12635,14 @@ a.card--project.is-active .card__background picture img {
   margin-bottom: 30px;
   margin-right: 20px;
 }
+.container-h-2 {
+  background-color: #fff;
+}
 #i-service {
   background: url('assets/images/company/shape.png');
+}
+.landing-efficiency-slider__slide {
+  background-color: #fff;
 }
 }
 @media only screen and (max-width: 576px) {

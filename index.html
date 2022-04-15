@@ -879,7 +879,7 @@
                                 </span>
                             </a>
 
-                            <a class="btn btn--secondary is-hidden--md-up btn--square" href="#projects"
+                            <a class="btn btn--secondary is-hidden--md-up btn--square" href="#first-lg"
                                 aria-label="Проекты">
                                 <span class="btn__content">
                                     <svg class="icon icon-btn-arrow-down btn__icon" width="24" height="24"
@@ -1221,7 +1221,7 @@
                             data-illustration-url="assets/images/illustrations/5.svg"></div>
                     </div>
 
-                    <div class="row">
+                    <div class="row" id="first-lg">
                         <div class="row col col--xs-6 col--md-3 px-1:md py-1:md efficiency-info__company-block">
                             <dl class="col col--xs-3 px-1 py-1 px-0:md py-0:md block-md">
                                 <dt class="text--c2 text--color-small">Газар хөдлөлтөд <br/>
@@ -1240,7 +1240,7 @@
                             </dl>
                         </div>
                         <div class="col col--xs-6 px-1 py-1 col--md-3 efficiency-info__quality-block">
-                            <picture class="is-invisible--js is-hidden--no-js background" data-plugin="appear "
+                            <picture class="is-invisible--js is-hidden--no-js background first_lg--data-md" data-plugin="appear "
                                 draggable="false">
                                 <source
                                     data-srcset="/assets/images/company/career1.png"
@@ -1332,14 +1332,14 @@
                                     alt="" data-plugin="parallax" data-parallax-pattern="image-zoom" class=""
                                     draggable="false" />
                             </picture>
-                            <dl>
+                            <!-- <dl>
                                 <dt class="text--c2 efficiency-info__statistic-title--changing">
                                     Зэрэглэл
                                 </dt>
                                 <dd class="h2 leading-trim efficiency-info__statistic-text">
                                     А
                                 </dd>
-                            </dl>
+                            </dl> -->
                         </div>
                     </div>
 
@@ -1354,7 +1354,7 @@
                         </dl>
                     </div>
 
-                    <div class="container-h efficiency-info__description-block">
+                    <div class="container-h efficiency-info__description-block bg_white_lg">
                         <p class="text--p1-large text--color-small">
                             1.5 сая хүн амтай,<b> дэлхийн </b> метрополис хотуулын нэг Улаанбаатар хотын
                             эдийн засаг, гадаад харилцааны цөм бүсэд байрлалтай<b>“Эко Интернэйшнл Трейд Тауэр”</b> 
@@ -1779,10 +1779,10 @@
                                 </section>
 
                                 <div id="tuuh" class="landing-efficiency-slider landing-history-slider" data-plugin="reveal">
-                                    <h2 class="landing-history-slider--h2"> БАЙРШЛЫН
+                                    <h2 class="landing-history-slider--h2"> БАЙРШЛЫН <br/>
                                         ТҮҮХЭН ЗАМНАЛ</h2>
                                     <p class="landing-history-slider--p">Төв шуудангийн урд байрлах энэхүү газар нь МУИС-ийн төв байр, Засгийн газрын ордон, Гадаад Харилцааны яам, Хотын Захиргааны байр, Элдэв-Очирын нэрэмжит кино театр зэрэг олон барилгын зураг төслийг боловсруулсан ЗХУ-ын гавьяат архитектор, БНМАУ-ын “Хүндэт тэмдэг”, “Алтан гадас” одонгийн эзэн Н.М.Щепетильниковын хийсэн зураг төслийн дагуу баригдсан, нийслэлийн анхны оршин суугчдын гал голомт бүхий орон сууцны барилга байсан түүхэн газар юм.</p>
-                                    <picture class="is-invisible--js is-hidden--no-js img-full"
+                                    <picture class="is-invisible--js is-hidden--no-js img-full location_brl"
                                     data-plugin="appear " draggable="false">
                                     <source
                                         data-srcset="/assets/images/company/history_road1.png"
@@ -1812,13 +1812,15 @@
                                     БАЙРШИЛ
                                     </h2>
                                     <!-- <span><img class="map_stick" src="/assets/images/company/map_stick_grp.png" alt=""></span> -->
-                                    <div id="map"></div>
+                                        <div id="map" style="background-color: #fff;"></div>
+                                        <script
+                                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCoPXzoJYb6KCWDZlsvahiOTK3AYd6vnU&callback=initMap&v=weekly"
+                                        async
+                                      ></script>
+                                            
                                 
                                     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-                                    <script
-                                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCoPXzoJYb6KCWDZlsvahiOTK3AYd6vnU&callback=initMap&v=weekly"
-                                      async
-                                    ></script>
+                                 
                                 </section>
                                 <section id="i-brand" class="section section--no-overflow company-awards ui-light-background" data-scroll-section
                                     data-plugin="reveal">
@@ -2626,9 +2628,12 @@
                     data-parallax-100-0='{"transform": "translateY(-100%)"}'
                     data-parallax-100-100='{"transform": "translateY(0%)"}'>
                     <div class="footer__holder">
-                        <a class="text--c2 leading-trim" href="tel:+74959676923">
-                            +976 77121188
-                        </a>
+                        <a class="contact_m" href="tel:+976 88880283">ХОЛБОО БАРИХ</a>
+                        <p class="contact_p">ХАЯГ: ЭКО ИНТЕРНЭЙШНЛ ТРЕЙД ТАУЭР, 1-р хорооо</p>
+                        <p class="contact_p">Энхтайвны өргөн чөлөө, сүхбаатар дүүрэг</p>
+                        <p class="contact_p">улаанбаатар хот, монгол улс</p>
+                        <p class="contact_p">  Утас: +976 88880283</p>
+                        <p class="contact_p">И-МЭЙЛ: info.eitt@gmail.com</p>
 
                         <div class="footer__holder__center">
                             <a href="index.html" title="Alcon Group">
