@@ -12634,6 +12634,8 @@ a.card--project.is-active .card__background picture img {
   gap: 10px;
   margin-bottom: 30px;
   margin-right: 20px;
+  margin-left: auto;
+  width: 20rem;
 }
 .container-h-2 {
   background-color: #fff;
