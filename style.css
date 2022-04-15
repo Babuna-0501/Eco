@@ -527,7 +527,6 @@ small {
   line-height: 1.23077em;
   --lh: 1.23077em;
   font-family: Halvar Engschrift, Helvetica, Arial, sans-serif;
-  white-space: nowrap;
   height: 1.3rem;
 }
 .btn,
@@ -6496,7 +6495,7 @@ a .icon-logo__item {
 .mt-0\:xs:first-child,
 .my-0:first-child,
 .my-0\:xs:first-child {
-  margin-top: 7px;
+  margin-top: 0;
 }
 .mt-0-5,
 .mt-0-5\:xs,
@@ -12592,7 +12591,7 @@ a.card--project.is-active .card__background picture img {
 }
 .mail__sp {
   width: 100%;
-  height: 540px;
+  height: 450px;
   background-color: #555555;
   display: flex;
   flex-direction: column;
@@ -12602,6 +12601,7 @@ a.card--project.is-active .card__background picture img {
   font-size: 21px;
   color: #fff;
   margin-bottom: 30px;
+  line-height: 1.3em;
 }
 .mail__sp input {
   height: 62px;
@@ -12624,6 +12624,8 @@ a.card--project.is-active .card__background picture img {
   height: 38px;
   border: none;
   margin-top: 25px;
+  font-stretch: condensed;
+  text-transform: uppercase;
 }
 .brochure a {
   display: flex;
@@ -12645,6 +12647,12 @@ a.card--project.is-active .card__background picture img {
 }
 .landing-efficiency-slider__slide {
   background-color: #fff;
+}
+.footer {
+  height: 44vh;
+}
+.logo-nd {
+  margin-left: -7.5rem;
 }
 }
 @media only screen and (max-width: 576px) {
