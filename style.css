@@ -626,7 +626,7 @@ samp {
   }
   .text--g1,
   .text--g1-project {
-    font-size: 34.6rem;
+    font-size: 15vw;
     line-height: 1em;
     --lh: 1em;
   }
@@ -705,7 +705,7 @@ samp {
   }
   .btn,
   .text--c2 {
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 1.33333em;
     --lh: 1.33333em;
   }
@@ -825,7 +825,7 @@ samp {
   only screen and (min-width: 1200px) and (min-height: 500px) and (max-width: 1439px) {
   .text--g1,
   .text--g1-project {
-    font-size: calc(17.3rem + 173 * (100vw - 720px) / 720);
+    font-size: 15vw;
   }
 }
 @media (min-width: 980px) and (max-height: 499px),
@@ -928,7 +928,7 @@ samp {
 @media only screen and (min-width: 1920px) and (min-height: 700px) {
   .text--g1,
   .text--g1-project {
-    font-size: 57.6rem;
+    font-size: 15vw;
   }
   .text--g1,
   .text--g1-project,
@@ -3795,30 +3795,29 @@ hr {
 .btn.btn--nav .btn-container.is-disabled,
 .btn.btn--nav.is-disabled,
 .btn.btn--nav:disabled {
-  color: #222;
+  color: #555555;
 }
 .btn.btn--nav .btn-container.is-disabled:after,
 .btn.btn--nav.is-disabled:after,
 .btn.btn--nav:after,
 .btn.btn--nav:disabled:after {
-  background-color: #fa4500;
+  background-color: #222222;
 }
 .btn-container.focus-visible .btn.btn--nav,
 .btn.btn--nav.focus-visible {
   box-shadow: 0 0 0 3px rgba(250, 69, 0, 0.4);
 }
 .btn.btn--nav .btn__text {
-  font-size: 11.6rem;
-  line-height: 1em;
-  --lh: 1em;
+  font-size: 150px !important;
+  padding-top: 2rem;
   letter-spacing: -0.01em;
   font-weight: 300;
+  line-height: 55rem;
 }
+
 @media only screen and (min-width: 1440px) and (min-height: 700px) {
   .btn.btn--nav .btn__text {
     font-size: 11.6rem;
-    line-height: 1em;
-    --lh: 1em;
     letter-spacing: -0.01em;
     font-weight: 300;
   }
@@ -10396,6 +10395,7 @@ a.card--project.is-active .card__background picture img {
   z-index: 10;
   padding: var(--spacing-1) 0;
   pointer-events: none;
+  padding-top: 6vw;
 }
 .header a {
   pointer-events: all;
@@ -12459,6 +12459,54 @@ a.card--project.is-active .card__background picture img {
     right: 0;
   }
 }
+@media only screen and (min-width: 990px) {
+  .lg_text--intro {
+    position: relative;
+    font-size: 24px !important;
+    width: 50vw !important;
+  }
+  .eit_intro_lg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 18.229vw;
+    margin-left: 40vw;
+    top: -10rem;
+  }
+  .eit_mb_lg {
+    display: none;
+  }
+  .hero_title {
+    font-size: 120px !important;
+  }
+  .hero_title-xs-1 {
+    display: none;
+  }
+  .hero_title-xl {
+    font-size: 120px;
+  }
+  .eco-logo {
+    width: 400px;
+    height: 400px;
+    top: -7rem;
+    position: relative;
+    left: -26%;
+  }
+  .h2--ld_trim {
+    font-size: 140px;
+    position: relative;
+    top: 3vw;
+  }
+  .number-list {
+    padding-top: 15px;
+  }
+  .text--g1 {
+    position: relative;
+    right: 50vw;
+    top: 2vw;
+  }
+}
 .illustration--10 svg {
   right: 0;
   bottom: 0;
@@ -12488,7 +12536,7 @@ a.card--project.is-active .card__background picture img {
 
 
 
-@media only screen and (max-width: 567px) and (max-aspect-ratio: 13/9) {
+@media only screen and (max-width: 567px){
 .landing-efficiency-slider__nav__history {
   top: calc(var(--spacing) * 1.7 + 300 / 360 * 100vw - 40px) !important;
   background-color: #555555;
@@ -12648,9 +12696,9 @@ a.card--project.is-active .card__background picture img {
 #i-service {
   background: url('assets/images/company/shape.png');
 }
-.landing-efficiency-slider__slide {
+/* .landing-efficiency-slider__slide {
   background-color: #fff;
-}
+} */
 .footer {
   height: 44vh;
 }
@@ -12689,8 +12737,32 @@ height: 100vh;
 /* 
 company */
 
-@media only screen and (min-width: 576px) {
-  body {
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.anime_logo  .fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1.5;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1.5;
+	animation:fadeIn ease-in 1.5;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:2.5s;
+	-moz-animation-duration:2.5s;
+	animation-duration:2.5s;
+} 
+@media only screen and (max-width: 990px) {
+  .eit_intro_lg {
+    display: none;
+  }
+  .hero_title-xl {
     display: none;
   }
 }
+
+
