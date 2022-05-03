@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/plan2.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
 </head>
 <body>
 
@@ -19,9 +23,9 @@
                         </h2>
 
                         <div class="advantages-wrapper">
-                            <ul class="advantages-list scrollable-sm-down js-ajax-list">
+                            <ul class="advantages-list scrollable js-ajax-list js-flickity">
 
-                                <li>
+                                <li class="gallery-cell">
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
                                         <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
                                             <div class="advantages-item__sizer"></div>
@@ -53,7 +57,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
 
 
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
@@ -93,7 +97,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
 
 
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
@@ -130,7 +134,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
 
 
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
@@ -163,7 +167,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
 
 
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
@@ -201,7 +205,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
                                         <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
                                             <div class="advantages-item__sizer"></div>
@@ -236,7 +240,7 @@
 
                                     </div>
                                 </li>
-                                <li>
+                                <li class="gallery-cell">
                                     <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
                                         <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
                                             <div class="advantages-item__sizer"></div>
@@ -272,10 +276,291 @@
                                     </div>
                                 </li>
                             </ul>
+                            <div class="swiper mySwiper planSwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell gc-1">
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/company/plan_slide1.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/company/plan_slide1.png, /assets/images/company/plan_slide1.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/company/plan_slide1.png" alt="Design lobby" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+    
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+                                                    <p class="advantages-item__hover__description">26-р давхарт байрлах, хотын төвийг бүрэн харах боломжтой
+                                                        террас, орчин үеийн шинэлэг интерьертэй, тансаг зэрэглэлийн лоунж болон бараар үйлчлүүлэх боломжтой</p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title ">ЛОУНЖ & БАР</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell">
+
+
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+    
+    
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/company/plan_slide2.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/company/plan_slide2.png, /assets/images/company/plan_slide2.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/company/plan_slide2.png" alt="Enclosed area" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+                                                    <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/company/plan_slide2.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                        <source srcset="/assets/images/company/plan_slide2.png, /assets/images/company/plan_slide2.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                        <img src="assets/images/company/plan_slide2.png" alt="Enclosed area" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                    </picture>
+    
+                                                    <p class="advantages-item__hover__description">25-р давхарт их хотыг 360 градус тольдан харангаа Итали
+                                                        тогоочийн бэлтгэн үйлчлэх хоол, зуушыг зооглох боломжтой чамин тансаг интерьер бүхий дээд зэрэглэлийн Итали ресторантай</p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title text_only--villa">Итали ресторан</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell gc-3">
+
+
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+    
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/company/plan_slide3.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/company/plan_slide3.png, /assets/images/company/plan_slide3.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/company/plan_slide3.png" alt="Author's landscaping" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+                                                    <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/company/plan_slide3.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                        <source srcset="/assets/images/company/plan_slide3.png 2x, /assets/images/company/plan_slide3.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                        <img src="assets/images/company/plan_slide3.png" alt="Author's landscaping" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                    </picture>
+                                                    <p class="advantages-item__hover__description">8-24-р давхарт хурал уулзалт, сургалт, зөвлөгөөний танхимууд мөн 50м2-170м2 оффисын талбайнуудаас сонголтоо хийх боломжтоЙ</p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title ">ОФФИС</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell">
+
+
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+    
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/japan.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/japan.png, /assets/images/japan.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/japan.png" alt="Underground parking and storage" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+                                                    <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false"><source srcset="assets/images/japan.png" media="    (min-width: 1920px) and (min-height: 600px)"><source srcset="/assets/images/company/plan_slide4.png 2x, /assets/images/" media="    (min-width: 1200px) and (min-height: 600px)"><img src="assets/images/" alt="Underground parking and storage" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false"></picture>
+                                                    <p class="advantages-item__hover__description">7-р давхарт тансаг зэрэглэлийн тав тухтай япон ресторан байрлана </p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title ">Япон ресторан</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                  <div class="swiper-slide">  <li class="gallery-cell gc-5">
+
+
+                                    <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                        <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                            <div class="advantages-item__sizer"></div>
+
+                                            <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+
+                                                        <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                            <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                            </use>
+                                                        </svg>
+                                                    </span></span>
+                                            </div>
+
+                                            <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                <source srcset="assets/images/company/plan_slide5.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                <source srcset="/assets/images/company/plan_slide5.png, /assets/images/company/plan_slide5.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                <img src="assets/images/company/plan_slide5.png" alt="Play area and private lobby areas" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                            </picture>
+
+                                            <div class="advantages-item__hover js-scroll-parent-ignore">
+
+                                                <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/landing/7.infrastructure/7-xxxl33a2.jpg" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/landing/7.infrastructure/7-xxxl.jpg 2x, /assets/images/landing/7.infrastructure/7-xl.jpg 1x" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/landing/7.infrastructure/7-xs33a2.jpg" alt="Play area and private lobby areas" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+                                                <p class="advantages-item__hover__description">2-6-р давхарт олон улсын алдартай брэнд дэлгүүрүүд, үнэт эдлэлийн дэлгүүр, банкны салбарууд, үүрэн холбооны оператор компаниуд, франчайз супермаркет, дээд зэрэглэлийн спа, салон зэрэг худалдаа үйлчилгээний төвүүд нэг дор төвлөрөн байрлана </p>
+                                            </div>
+
+                                            <h3 class="advantages-item__title ">Үйлчилгээний хэсэг</h3>
+                                        </div>
+
+                                    </div>
+                                </li></div>
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell">
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/company/plan_slide6.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/company/plan_slide6.png, /assets/images/company/plan_slide6.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/company/plan_slide6.png" alt="Outdoor terrace" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+    
+                                                    <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/company/plan_slide6.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                        <source srcset="/assets/images/company/plan_slide6.png, /assets/images/company/plan_slide6.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                        <img src="assets/images/company/plan_slide6.png" alt="Outdoor terrace" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                    </picture>
+                                                    <p class="advantages-item__hover__description">1-р давхарт үйлчилгээ болон оффис хэсгийг багтаасан өндөр тааз, шинэлэг интерьер бүхий лобби, кофе шоп, ресторан, банкны салбарууд байрлана </p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title ">Ресторан, Кофе шоп</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <li class="gallery-cell">
+                                        <div class="advantages-item ui-dark js-scroll-parent-ignore " data-plugin="advantagesItem">
+                                            <div data-plugin="parallax" data-parallax-100-0="{&quot;transform&quot;: &quot;translateY(-10vmin)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;translateY(10vmin)&quot;}" data-parallax-measure-selector=".advantages-list" style="will-change: transform;">
+                                                <div class="advantages-item__sizer"></div>
+    
+                                                <div class="advantages-item__button btn-container" role="button" tabindex="0" aria-label="Показать описание">
+                                                    <span class="btn btn--square btn--primary btn--nohover"><span class="btn__content">
+    
+                                                            <svg class="icon icon-zoom-in-map" width="20" height="20" aria-hidden="true">
+                                                                <use href="assets/images/icons.svg#zoom-in-map" xlink:href="assets/images/icons.svg#zoom-in-map">
+                                                                </use>
+                                                            </svg>
+                                                        </span></span>
+                                                </div>
+                                                <picture class="advantages-item__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                    <source srcset="assets/images/company/plan_slide7.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                    <source srcset="/assets/images/company/plan_slide7.png, /assets/images/company/plan_slide7.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                    <img src="assets/images/company/plan_slide7.png" alt="Outdoor terrace" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                </picture>
+    
+                                                <div class="advantages-item__hover js-scroll-parent-ignore">
+    
+                                                    <picture class="advantages-item__hover__image parallax-picture parallax-picture--lg js-scroll-parent-ignore" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/company/plan_slide7.png" media="    (min-width: 1920px) and (min-height: 600px)">
+                                                        <source srcset="/assets/images/company/plan_slide7.png, /assets/images/company/plan_slide7.png" media="    (min-width: 1200px) and (min-height: 600px)">
+                                                        <img src="assets/images/company/plan_slide7.png" alt="Outdoor terrace" data-plugin="parallax" data-parallax-pattern="image" class=" is-hidden--no-js" draggable="false">
+                                                    </picture>
+                                                    <p class="advantages-item__hover__description">B1-B2 давхарт ухаалаг систем бүхий автомашины дулаан зогсоолтой. </p>
+                                                </div>
+    
+                                                <h3 class="advantages-item__title ">АВТО ЗОГСООЛ</h3>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </section>
+                    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
     <script src="main-js/blank.js"></script>
     <script src="main-js/landing.js"></script>
     <script src="main-js/shared.js"></script>

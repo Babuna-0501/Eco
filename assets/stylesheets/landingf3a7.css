@@ -2768,6 +2768,17 @@
     top: calc(var(--spacing) * 4 + 90vh - 100px);
   }
 }
+@media only screen and (min-width: 1000px) {
+  .landing-history-slider {
+    height: 55.938vw;
+    background-color: #555555;
+  }
+  .location_brl {
+    width: 50vw;
+    position: relative;
+    top: -27.2vw;
+  }
+}
 @media only screen and (min-width: 568px) and (max-aspect-ratio: 13/9),
   only screen and (min-width: 668px) and (min-height: 416px),
   only screen and (min-width: 980px) {

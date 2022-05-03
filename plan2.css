@@ -3346,7 +3346,7 @@ only screen and (min-width:980px) {
 
 @media only screen and (min-width:1200px) {
     .advantages-title {
-        font-size: 18.9rem;
+        font-size: 83px;
         line-height: .89947em;
         letter-spacing: -.04em
     }
@@ -3354,7 +3354,7 @@ only screen and (min-width:980px) {
 
 @media only screen and (min-width:1440px) {
     .advantages-title {
-        font-size: 21.6rem;
+        font-size: 83px;
         line-height: .87963em;
         letter-spacing: -.04em
     }
@@ -3362,9 +3362,40 @@ only screen and (min-width:980px) {
 
 @media only screen and (min-width:1920px) {
     .advantages-title {
-        font-size: 32.4rem;
+        font-size: 83px;
         line-height: .8642em;
         letter-spacing: -.04em
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .planSwiper {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .js-flickity {
+        display: none !important;
+    }
+    .gallery-cell {
+        cursor: pointer;
+    }
+    .gc-1 {
+        margin-top: -1rem !important;
+    }
+    .gc-3 {
+        margin-top: -1rem !important;
+    }
+    .gc-5 {
+        margin-top: -1rem !important;
+    }
+    .planSwiper {
+        margin-top: 10rem;
+        cursor: pointer;
+    }
+    .swiper-slide {
+        width: 490px !important;
     }
 }
 
@@ -3457,10 +3488,12 @@ only screen and (min-width:980px) {
     }
     @supports (-webkit-text-stroke-width:1px) {
         .ui-olive .advantages-title {
-            text-shadow: none;
             -webkit-text-stroke-width: 1px;
             -webkit-text-fill-color: currentColor;
-            -webkit-text-stroke-color: #2c2926
+            -webkit-text-stroke-color: #2c2926;
+            position: relative;
+            top: -20rem;
+            transform: translateY(12.1278vmin);
         }
     }
 }
@@ -3481,11 +3514,11 @@ only screen and (min-width:980px) {
     }
 }
 
-@media only screen and (min-width:1200px) {
+/* @media only screen and (min-width:1200px) {
     .advantages-wrapper {
         padding-left: calc(var(--col-4) - var(--spacing))
     }
-}
+} */
 
 .advantages-list {
     display: flex;

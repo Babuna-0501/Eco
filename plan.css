@@ -16884,7 +16884,11 @@ only screen and (min-width:980px) {
     padding-right: var(--spacing);
     padding-left: var(--spacing)
 }
-
+@media only screen and (min-width:1200px)  {
+    .container-h {
+        padding-right: unset;
+    }
+}
 .container-v {
     padding-top: var(--spacing);
     padding-bottom: var(--spacing)
