@@ -523,7 +523,7 @@ small {
 }
 .btn,
 .text--c2 {
-  font-size: 1.14rem;
+  font-size: 10px;
   line-height: 1.43077em;
   --lh: 1.43077em;
   font-family: Halvar Engschrift, Helvetica, Arial, sans-serif;
@@ -705,7 +705,7 @@ samp {
   }
   .btn,
   .text--c2 {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.33333em;
     --lh: 1.33333em;
   }
@@ -722,6 +722,18 @@ samp {
     --lh: 1.25em;
   }
 }
+@media (min-width: 1700px) {
+  .text--c2 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1100px) {
+  .contact_xl_lg {
+    display: none;
+  }
+}
+
 @media (min-width: 980px) and (max-height: 499px),
   (min-width: 1200px) and (min-height: 500px) and (max-height: 699px),
   only screen and (min-width: 568px) and (max-aspect-ratio: 13/9) and (max-width: 979px),
@@ -1050,8 +1062,8 @@ body {
   }
 }
 .page-content {
-  min-height: 100vh;
-  min-height: var(--viewport-height);
+  /* min-height: 100vh;
+  min-height: var(--viewport-height); */
   width: 100vw;
   position: relative;
   margin-right: calc(100% - 100vw);
@@ -3801,7 +3813,14 @@ hr {
 .btn.btn--nav.is-disabled:after,
 .btn.btn--nav:after,
 .btn.btn--nav:disabled:after {
-  background-color: #555555;
+  background-color: #222222;
+}
+.slider_js_xl_ts::after {
+  background-color: #555555 !important;
+  
+}
+.js_xl_jabs_ts {
+  color: #222222;
 }
 .btn-container.focus-visible .btn.btn--nav,
 .btn.btn--nav.focus-visible {
@@ -9224,7 +9243,7 @@ a .icon-logo__item {
   bottom: calc(var(--spacing) / 60 * 127);
   left: 0;
   width: 100%;
-  color: #222;
+  color: #fff;
   text-align: center;
 }
 .slider-nav__outline {
@@ -11761,6 +11780,24 @@ a.card--project.is-active .card__background picture img {
     order: 1;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .menu-mobile__header {
+    height: 50px;
+  }
+  .brochure {
+    position: absolute;
+    width: 300px;
+    top: 43%;
+    left: 75%;
+  }
+  #i-brand {
+    margin-top: -8rem;
+  }
+  .section_contact_xl {
+    margin-top: 7rem !important;
+  }
+}
 .menu-mobile {
   display: flex;
   width: 100vw;
@@ -11811,6 +11848,12 @@ a.card--project.is-active .card__background picture img {
     --lh: 1.03448em;
     letter-spacing: 0.02em;
     font-weight: 400;
+  }
+}
+@media only screen and (min-width: 1000px)  {
+  .menu-mobile__list .menu-mobile__link {
+    font-size: 60px !important;
+    line-height: 90px !important;
   }
 }
 @media only screen and (min-width: 568px) and (max-aspect-ratio: 13/9),
@@ -11927,7 +11970,7 @@ a.card--project.is-active .card__background picture img {
 }
 @media only screen and (min-width: 980px) {
   .menu-mobile__list {
-    padding-left: calc(16.66667vw * 1.5);
+    padding-left: 9.66667vw;
   }
 }
 .menu-dropdown {
@@ -12370,6 +12413,90 @@ a.card--project.is-active .card__background picture img {
     line-height: 1.823vw;
     color: #fff;
   }
+  .hee_xl {
+    background: url("/assets/hee_2_xl.png");
+    padding-top: 13.021vw;
+    padding-left: 5.521vw;
+    padding-right: 5.521vw;
+    margin-bottom: 5.521vw;
+    padding-bottom: 5.521vw;
+  }
+  .lc_title_xl {
+    font-size: 4.323vw;
+  }
+  .xll-none {
+    display: none;
+  }
+  .section_map {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+  }
+  .g_xl_map {
+    height: 36.458vw;
+    width: 52.083vw;
+  }
+  .map_info {
+    width: 40.781vw;
+  }
+  .contact_xl_lg {
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .contact_xl_lg div:not(:first-child) {
+    margin-top: 3rem;
+  }
+  .awards_xl_title {
+    font-size: 83px;
+  }
+  .section_contact_xl {
+    height: 700px;
+    background-color: #555555;
+    padding-top: 170px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .mail__sp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mail__sp div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  .mail__sp div input {
+    width: 740px;
+    height: 100px;
+    background-color: #555555;
+    border: 1px solid #AEB8C0;
+    padding: 15px;
+    color: #919191;
+    font-size: 25px;
+  }
+  .mail__sp div .btn_mail_xl {
+    width: 194px;
+    height: 61px;
+    background-color: #222222;
+    color: #ffff;
+  }
+  .mail__sp h2 {
+    font-size: 32px;
+    color: #fff;
+    width: 490px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 1068px) {
+  .lc_title_xl {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 568px) and (max-aspect-ratio: 13/9),
@@ -12511,20 +12638,20 @@ a.card--project.is-active .card__background picture img {
     display: none;
   }
   .hero_title {
-    font-size: 120px !important;
+    font-size: 6.250vw !important;
   }
   .hero_title-xs-1 {
     display: none;
   }
   .hero_title-xl {
-    font-size: 120px;
+    font-size: 6.250vw;
   }
   .eco-logo {
-    width: 400px;
-    height: 400px;
-    top: -7rem;
+    width: 190px;
+    height: 151px;
+    top: -2rem;
     position: relative;
-    left: -26%;
+    left: -10%;
   }
   .h2--ld_trim {
     font-size: 140px;
@@ -12544,8 +12671,15 @@ a.card--project.is-active .card__background picture img {
     background-repeat: no-repeat;
   }
   .iframe1 {
-    height: 120vh;
+    height: 120rem;
     overflow: scroll !important;
+  }
+  .xl_bg_service {
+    background-color: #fff;
+  }
+  .service_h2 {
+    font-size: 100px;
+    margin-top: 3rem !important;
   }
 }
 .illustration--10 svg {
@@ -12563,8 +12697,10 @@ a.card--project.is-active .card__background picture img {
 
 @media only screen and (max-width: 768px) {
   .eco-logo {
-      margin-left: -6rem;
-      margin-top: -3.5rem;
+      margin-left: 0rem;
+      margin-top: -0.5rem;
+      width: 104px;
+      height: 77px;
   }
   .hero_title {
       font-size: 50px;
@@ -12623,9 +12759,9 @@ a.card--project.is-active .card__background picture img {
   background: url('/assets/images/company/shape.png');
 } */
 
-#i-brand {
-  height: 142vw;
-}
+/* #i-brand {
+  margin-bottom: 5rem;
+} */
 .map_info {
   position: absolute;
   width: 100%;
@@ -12689,6 +12825,10 @@ a.card--project.is-active .card__background picture img {
   flex-direction: column;
   padding: 50px 30px;
 }
+.mail__sp div {
+  display: flex;
+  flex-direction: column;
+}
 .mail__sp h2 {
   font-size: 21px;
   color: #fff;
@@ -12741,10 +12881,11 @@ a.card--project.is-active .card__background picture img {
   background-color: #fff;
 } */
 .footer {
-  height: 44vh;
+  height: 48vh;
 }
 .logo-nd {
-  margin-left: -7.5rem;
+  margin-left: 0;
+  margin-top: 2px;
 }
 .arrow_dwn {
   width: 20px;
@@ -12765,8 +12906,13 @@ a.card--project.is-active .card__background picture img {
   height: 145vw;
   }
 }
+.footer_logo_sm {
+  width: 104px;
+  height: 79px;
+  margin-top: 5rem;
+}
 .txt-md_footer {
-  margin-top: -3rem;
+  margin-top: 10rem;
 }
 .gmnoprint {
 display: none;

@@ -1858,6 +1858,11 @@
     padding: var(--spacing);
   }
 }
+@media only screen and (min-width: 1000px)  {
+  .card--award .card__bottom {
+    height: 25.208vw;
+  }
+}
 @media (max-width: 567px) and (max-aspect-ratio: 13/9),
   (max-width: 667px) and (min-aspect-ratio: 13/9),
   only screen and (max-width: 979px) and (max-height: 415px) and (min-aspect-ratio: 13/9) {
@@ -1910,9 +1915,9 @@
 .card--award.clicked .card__top {
   opacity: 1;
 }
-.company-awards {
+/* .company-awards {
   padding-top: calc(var(--spacing) * 3);
-}
+} */
 .company-awards__nav {
   justify-content: space-between;
   align-items: center;
